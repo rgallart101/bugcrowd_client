@@ -1,0 +1,12 @@
+# flake8: noqa
+
+# import apis into api package
+from bugcrowd_client.api.submissions_api_api import SubmissionsAPIApi
+from bugcrowd_client.api.claim_ticket_resource_api import ClaimTicketResourceApi
+from bugcrowd_client.api.comment_resource_api import CommentResourceApi
+from bugcrowd_client.api.monetary_reward_resource_api import MonetaryRewardResourceApi
+from bugcrowd_client.api.organization_resource_api import OrganizationResourceApi
+from bugcrowd_client.api.program_resource_api import ProgramResourceApi
+from bugcrowd_client.api.submission_resource_api import SubmissionResourceApi
+from bugcrowd_client.api.target_resource_api import TargetResourceApi
+
